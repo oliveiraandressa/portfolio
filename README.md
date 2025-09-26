@@ -4,8 +4,9 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)](https://github.com/oliveiraandressa)
 
 ## Sobre mim / About Me
-🇧🇷 Frontend Developer com ~10 anos de experiência em Angular, React, Micro-Frontends, GraphQL, Node.js e Django. Apaixonada por arquitetura de front-end, testes automatizados e boas práticas de desenvolvimento.  
-🇺🇸 Frontend Developer with ~10 years of experience in Angular, React, Micro-Frontends, GraphQL, Node.js, and Django. Passionate about frontend architecture, automated testing, and best development practices.
+Frontend Developer com ~10 anos de experiência em Angular, React, Micro-Frontends, GraphQL, Node.js e Django. Apaixonada por arquitetura de front-end, testes automatizados e boas práticas de desenvolvimento.
+
+Frontend Developer with ~10 years of experience in Angular, React, Micro-Frontends, GraphQL, Node.js, and Django. Passionate about frontend architecture, automated testing, and best development practices.
 
 ## Skills / Habilidades
 - **Frontend:** Angular, React, HTML, CSS, SCSS, TypeScript, JavaScript  
