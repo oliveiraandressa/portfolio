@@ -1,4 +1,4 @@
-# Andressa Oliveira – Frontend Developer / Desenvolvedora Frontend
+# Andressa Oliveira – Frontend Engineer / Desenvolvedora Frontend
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/andressadeoliveira93)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)](https://github.com/oliveiraandressa)
