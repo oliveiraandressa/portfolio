@@ -1,6 +1,6 @@
 # 🌟 Portfolio Andressa Oliveira
 
-> **Front-End Developer • UI/UX Designer • QA Specialist**
+> **Front-End Developer - UI/UX Designer - QA Specialist**
 
 Portfolio moderno e responsivo desenvolvido com HTML5, CSS3, JavaScript e TailwindCSS. Apresenta projetos, habilidades e experiência profissional de forma interativa e elegante.
 
@@ -42,9 +42,6 @@ Visualização interativa das competências técnicas:
 - **Design** - Figma, UI/UX
 - **QA** - Automação e testes manuais
 
-### 💬 **Depoimentos**
-Feedbacks de clientes e colaboradores
-
 ### 📞 **Contato**
 Links diretos para WhatsApp, LinkedIn e e-mail
 
@@ -76,86 +73,9 @@ portfolio/
 ├── 📁 js/
 │   ├── portfolio-data.js       # Dados PT/EN centralizados
 │   ├── enhanced-loader.js      # Sistema de carregamento avançado
-│   ├── simple-loader.js        # Loader básico
 │   └── script.js               # Funcionalidades gerais
-├── index-dynamic.html          # Página principal
-├── debug-lang.html             # Ferramenta de debug
+├── index.html                  # Página principal
 └── README.md                   # Documentação
-```
-
-## 🚀 Como Executar
-
-### **Opção 1: Servidor Local (Recomendado)**
-
-```bash
-# Python
-python -m http.server 8000
-
-# Node.js
-npx serve .
-
-# PHP
-php -S localhost:8000
-```
-
-Acesse: `http://localhost:8000`
-
-### **Opção 2: Live Server (VS Code)**
-
-1. Instale a extensão **Live Server**
-2. Clique com botão direito em `index-dynamic.html`
-3. Selecione "Open with Live Server"
-
-### **Opção 3: Arquivo Local**
-
-Abra `index-dynamic.html` diretamente no navegador
-*(pode ter limitações de CORS)*
-
-## 📝 Personalização
-
-### **Alterando Conteúdo**
-
-Edite o arquivo `js/portfolio-data.js`:
-
-```javascript
-const PortfolioData = {
-  pt: {
-    personal: {
-      nome: "Seu Nome",
-      titulo: "Seu Título Profissional",
-      // ...
-    }
-  }
-};
-```
-
-### **Adicionando Projetos**
-
-```javascript
-projects: {
-  projetos: [
-    {
-      id: 1,
-      titulo: "Novo Projeto",
-      descricao: "Descrição do projeto",
-      tecnologias: "React • Node.js",
-      imagem: "url-da-imagem",
-      categoria: ["web"],
-      destaque: true
-    }
-  ]
-}
-```
-
-### **Customizando Cores**
-
-No arquivo `css/styles.css`, altere as variáveis:
-
-```css
-:root {
-  --primary-color: #sua-cor;
-  --bg-dark: #sua-cor-de-fundo;
-}
 ```
 
 ## 📊 Performance
@@ -168,9 +88,14 @@ No arquivo `css/styles.css`, altere as variáveis:
 ## 🎨 Design System
 
 ### **Cores Principais**
-- **Primary**: `#9b6bff` (Roxo vibrante)
-- **Background**: Gradiente dark
-- **Text**: `#e6eef8` (Branco suave)
+- **Primary**: `#fb7185` (Rosa vibrante)
+- **Background Dark**: `#0e0e0e`
+- **Background Gradient**: `#050507` → `#071018`
+- **Text Primary**: `#e6eef8` (Branco suave)
+- **Text Secondary**: `#f0f0f0`
+- **Card Background**: `#1a1a1a`
+- **Border**: `#262626`
+- **Glass Border**: `rgba(255,255,255,0.06)`
 
 ### **Tipografia**
 - **Font**: Inter (Google Fonts)
@@ -183,12 +108,12 @@ No arquivo `css/styles.css`, altere as variáveis:
 
 ## 🔍 SEO & Acessibilidade
 
-- ✅ Estrutura HTML semântica
-- ✅ Meta tags otimizadas
-- ✅ Alt text em imagens
-- ✅ Contraste adequado
-- ✅ Navegação por teclado
-- ✅ Aria labels
+✅ Estrutura HTML semântica  
+✅ Meta tags otimizadas  
+✅ Alt text em imagens  
+✅ Contraste adequado  
+✅ Navegação por teclado  
+✅ Aria labels  
 
 ## 📱 Responsividade
 
@@ -202,21 +127,6 @@ No arquivo `css/styles.css`, altere as variáveis:
 - Tipografia escala proporcionalmente
 - Navegação mobile otimizada
 
-## 🛠️ Manutenção
-
-### **Atualizando Dados**
-1. Edite `js/portfolio-data.js`
-2. Recarregue a página
-3. Não é necessário mexer no HTML
-
-### **Adicionando Idiomas**
-1. Adicione nova chave no `PortfolioData`
-2. Inclua o idioma no array de detecção
-3. Atualize o seletor de idiomas
-
-### **Debug**
-Use `debug-lang.html` para testar mudanças de idioma e validar dados.
-
 ## 📄 Licença
 
 Este projeto é open source e está disponível sob a licença MIT.
@@ -224,9 +134,9 @@ Este projeto é open source e está disponível sob a licença MIT.
 ## 👤 Contato
 
 **Andressa Oliveira**
-- 💼 LinkedIn: [linkedin.com/in/oliveiraandressa](https://linkedin.com/in/oliveiraandressa)
-- 📧 Email: contato@andressaoliveira.dev
-- 📱 WhatsApp: [wa.me/5511999999999](https://wa.me/5511999999999)
+- 💼 [LinkedIn](https://linkedin.com/in/oliveiraandressa)
+- 📧 [Email](mailto:ms.andressa.oliveira@gmail.co)
+- 📱 [WhatsApp](wa.me/5511993004619)
 
 ---
 
