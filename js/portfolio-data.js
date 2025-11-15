@@ -21,6 +21,15 @@ const PortfolioData = {
       }
     },
 
+    navigation: {
+      home: "Home",
+      services: "Serviços",
+      projects: "Projetos",
+      skills: "Habilidades",
+      contact: "Contato",
+      menu_aria: "Abrir menu"
+    },
+
     services: {
       titulo: "Áreas de Atuação",
       servicos: [
@@ -294,6 +303,15 @@ const PortfolioData = {
         ver_projetos: "View Projects",
         contato: "Contact"
       }
+    },
+
+    navigation: {
+      home: "Home",
+      services: "Services",
+      projects: "Projects",
+      skills: "Skills",
+      contact: "Contact",
+      menu_aria: "Open menu"
     },
 
     services: {

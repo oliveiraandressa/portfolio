@@ -21,6 +21,7 @@ class EnhancedPortfolioLoader {
       this.detectLanguage();
       this.loadDataFromInlineSource();
       this.renderContent();
+      this.updateNavigationTexts();
       this.setupLanguageSelector();
       this.initializeAnimations();
 
@@ -111,6 +112,7 @@ class EnhancedPortfolioLoader {
       // Recarregar dados no novo idioma
       this.loadDataFromInlineSource();
       this.renderContent();
+      this.updateNavigationTexts();
       this.initializeAnimations();
 
       // Esconder loading
@@ -134,6 +136,23 @@ class EnhancedPortfolioLoader {
     if (overlay) {
       overlay.classList.remove('show');
     }
+  }
+
+  updateNavigationTexts() {
+    const { navigation } = this.data;
+    if (!navigation) return;
+
+    // Atualizar links de navegação desktop
+    document.querySelectorAll('[data-nav]').forEach(element => {
+      const navKey = element.getAttribute('data-nav');
+      if (navigation[navKey]) {
+        if (element.tagName.toLowerCase() === 'button') {
+          element.setAttribute('aria-label', navigation[navKey]);
+        } else {
+          element.textContent = navigation[navKey];
+        }
+      }
+    });
   }
 
   renderContent() {
