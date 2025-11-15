@@ -10,7 +10,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -40,7 +40,7 @@
         </div>
 
         <div class="flex items-center gap-3">
-          <select id="langSelect" class="bg-transparent text-gray-300 text-sm border border-transparent focus:border-white/10 rounded px-2 py-1">
+          <select id="langSelect" class="text-sm rounded px-2 py-1">
             <option value="pt">PT</option>
             <option value="en">EN</option>
           </select>
@@ -57,41 +57,39 @@
       <div class="flex flex-col gap-2">
         <a href="#home" class="block py-3 px-4 rounded hover:bg-white/3">Home</a>
         <a href="#services" class="block py-3 px-4 rounded hover:bg-white/3">Serviços</a>
-        <a href="#projects" class="block py-3 px-4 rounded hover:bg-white/3">Projetos</a>
-        <a href="#skills" class="block py-3 px-4 rounded hover:bg-white/3">Habilidades</a>
         <a href="#contact" class="block py-3 px-4 rounded hover:bg-white/3">Contato</a>
       </div>
     </div>
   </div>
 
-  <main class="pt-28">
+  <main class="">
 
     <section id="home" class="min-h-screen flex items-center page-section" data-page="home" aria-label="Home">
       <div id="home-content" class="page-width mx-auto">
       </div>
     </section>
 
-    <section id="services" class="py-20 page-section" data-page="services">
+    <section id="services" class="py-10 page-section" data-page="services">
       <div id="services-content" class="page-width mx-auto">
       </div>
     </section>
 
-    <section id="projects" class="py-20 page-section" data-page="projects">
+    <section id="projects" class="py-10 page-section" data-page="projects" style="display: none">
       <div id="projects-content" class="page-width mx-auto">
       </div>
     </section>
 
-    <section id="skills" class="py-20 page-section" data-page="skills">
+    <section id="skills" class="py-20 page-section" data-page="skills" style="display: none">
       <div id="skills-content" class="page-width mx-auto">
       </div>
     </section>
 
-    <section id="testimonials" class="py-20">
+    <section id="testimonials" class="py-20" style="display: none">
       <div id="testimonials-content" class="page-width mx-auto">
       </div>
     </section>
 
-    <section id="contact" class="py-12 page-section" data-page="contact">
+    <section id="contact" class="py-20 page-section" data-page="contact">
       <div id="contact-content" class="page-width mx-auto text-center">
       </div>
     </section>
@@ -104,6 +102,6 @@
   <!-- SCRIPTS -->
   <script src="js/script.js"></script>
   <script src="js/portfolio-data.js"></script>
-  <script src="js/enhanced-loader.js"></script>
+  <script src="js/data-loader.js"></script>
 </body>
 </html>

@@ -7,9 +7,9 @@
    1. RESET & BASE STYLES
    ================================ */
 
-:root { 
-  color-scheme: dark; 
-  
+:root {
+  color-scheme: dark;
+
   /* Color Palette */
   --primary-color: #fb7185;
   --bg-dark: #0e0e0e;
@@ -20,12 +20,12 @@
   --card-bg: #1a1a1a;
   --border-color: #262626;
   --glass-border: rgba(255,255,255,0.06);
-  
+
   /* Spacing & Layout */
   --container-width: 1100px;
   --container-padding: 92%;
   --section-padding: 60px 20px;
-  
+
   /* Effects */
   --border-radius: 10px;
   --border-radius-sm: 6px;
@@ -38,26 +38,26 @@
   box-sizing: border-box;
 }
 
-html, 
-body { 
-  height: 100%; 
-  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; 
-  background: linear-gradient(180deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 60%); 
-  color: var(--text-primary); 
+html,
+body {
+  height: 100%;
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 60%);
+  color: var(--text-primary);
   line-height: 1.6;
-  -webkit-font-smoothing: antialiased; 
-  -moz-osx-font-smoothing: grayscale; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* ================================
    2. UTILITY CLASSES
    ================================ */
 
-.page-width { 
-  width: var(--container-width); 
-  max-width: var(--container-padding); 
-  margin-left: auto; 
-  margin-right: auto; 
+.page-width {
+  width: var(--container-width);
+  max-width: var(--container-padding);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section {
@@ -67,10 +67,10 @@ body {
 }
 
 /* Focus Styles */
-:focus { 
-  outline: 2px solid rgba(255,154,158,0.16); 
-  outline-offset: 4px; 
-  border-radius: 8px; 
+:focus {
+  outline: 2px solid rgba(255,154,158,0.16);
+  outline-offset: 4px;
+  border-radius: 8px;
 }
 
 /* ================================
@@ -80,8 +80,8 @@ body {
 .glass-heavy {
   background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
   border: 1px solid var(--glass-border);
-  box-shadow: 
-    0 10px 40px rgba(2,6,23,0.6), 
+  box-shadow:
+    0 10px 40px rgba(2,6,23,0.6),
     inset 0 1px 0 rgba(255,255,255,0.02);
   backdrop-filter: blur(12px) saturate(140%);
   border-radius: var(--border-radius);
@@ -99,9 +99,36 @@ body {
    4. NAVIGATION
    ================================ */
 
-.nav-active { 
-  color: #fff; 
-  background: rgba(255,255,255,0.06); 
+.nav-active {
+  color: #fff;
+  background: rgba(255,255,255,0.06);
+}
+
+/* Language Selector */
+#langSelect {
+  background: rgba(255,255,255,0.05);
+  color: #e6eef8;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: var(--transition-smooth);
+}
+
+#langSelect:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.2);
+}
+
+#langSelect:focus {
+  background: rgba(255,255,255,0.1);
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(251, 113, 133, 0.2);
+}
+
+#langSelect option {
+  background: var(--card-bg);
+  color: var(--text-primary);
+  padding: 8px 12px;
+  border: none;
 }
 
 /* ================================
@@ -146,7 +173,7 @@ body {
   gap: 12px;
 }
 
-.btn, 
+.btn,
 .btn-outline {
   padding: 12px 18px;
   border-radius: 8px;
@@ -272,36 +299,36 @@ footer {
    ================================ */
 
 #preloader {
-  position: fixed; 
-  inset: 0; 
-  z-index: 60; 
-  display: flex; 
-  align-items: center; 
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
   justify-content: center;
   background: linear-gradient(180deg, rgba(2,6,23,0.9), rgba(9,12,20,0.85));
   transition: opacity 0.5s ease, visibility 0.5s;
 }
 
 .apple-spinner {
-  width: 84px; 
-  height: 84px; 
+  width: 84px;
+  height: 84px;
   border-radius: 22px;
   background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a1c4fd);
   background-size: 200% 200%;
   animation: applePulse 1.6s ease-in-out infinite, appleGradient 3.6s ease-in-out infinite;
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   justify-content: center;
-  box-shadow: 
-    0 12px 40px rgba(0,0,0,0.6), 
+  box-shadow:
+    0 12px 40px rgba(0,0,0,0.6),
     inset 0 1px 0 rgba(255,255,255,0.12);
 }
 
 .apple-spinner:after {
-  content: ''; 
-  width: 40px; 
-  height: 40px; 
-  background: rgba(255,255,255,0.08); 
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.08);
   border-radius: 10px;
 }
 
@@ -310,58 +337,58 @@ footer {
    ================================ */
 
 #pageOverlay {
-  position: fixed; 
-  inset: 0; 
-  z-index: 55; 
-  pointer-events: none; 
-  display: flex; 
-  align-items: center; 
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  background: 
-    radial-gradient(1200px 600px at 50% 40%, rgba(255,154,158,0.06), transparent 30%), 
+  background:
+    radial-gradient(1200px 600px at 50% 40%, rgba(255,154,158,0.06), transparent 30%),
     linear-gradient(180deg, rgba(0,0,0,0.0), rgba(0,0,0,0.5));
-  opacity: 0; 
+  opacity: 0;
   transition: opacity 0.42s cubic-bezier(0.2,0.9,0.2,1);
   transform: translateY(0);
 }
 
-#pageOverlay.show { 
-  opacity: 1; 
-  pointer-events: auto; 
+#pageOverlay.show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* Page Enter/Exit Animations */
-.page-enter { 
-  opacity: 0; 
-  transform: translateY(10px) scale(0.995); 
-  transition: all 0.45s cubic-bezier(0.2,0.9,0.2,1); 
+.page-enter {
+  opacity: 0;
+  transform: translateY(10px) scale(0.995);
+  transition: all 0.45s cubic-bezier(0.2,0.9,0.2,1);
 }
 
-.page-enter.page-enter-active { 
-  opacity: 1; 
-  transform: translateY(0) scale(1); 
+.page-enter.page-enter-active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }
 
-.page-exit { 
-  opacity: 1; 
-  transform: translateY(0) scale(1); 
-  transition: all 0.35s cubic-bezier(0.2,0.9,0.2,1); 
+.page-exit {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: all 0.35s cubic-bezier(0.2,0.9,0.2,1);
 }
 
-.page-exit.page-exit-active { 
-  opacity: 0; 
-  transform: translateY(-8px) scale(0.998); 
+.page-exit.page-exit-active {
+  opacity: 0;
+  transform: translateY(-8px) scale(0.998);
 }
 
 /* ================================
    12. IMAGES & MEDIA
    ================================ */
 
-.thumb { 
-  height: 220px; 
-  object-fit: cover; 
-  width: 100%; 
-  border-radius: var(--border-radius); 
+.thumb {
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: var(--border-radius);
   transition: var(--transition-smooth);
 }
 
@@ -373,29 +400,29 @@ footer {
    13. ANIMATIONS & EFFECTS
    ================================ */
 
-.float-slow { 
-  transition: transform 0.5s cubic-bezier(0.2,0.9,0.3,1); 
+.float-slow {
+  transition: transform 0.5s cubic-bezier(0.2,0.9,0.3,1);
 }
 
-.float-slow:hover { 
-  transform: translateY(-10px) rotate(-0.4deg); 
-  box-shadow: 0 24px 60px rgba(0,0,0,0.6); 
+.float-slow:hover {
+  transform: translateY(-10px) rotate(-0.4deg);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.6);
 }
 
 /* ================================
    14. KEYFRAMES
    ================================ */
 
-@keyframes applePulse { 
-  0% { transform: scale(0.98); } 
-  50% { transform: scale(1.06); } 
-  100% { transform: scale(0.98); } 
+@keyframes applePulse {
+  0% { transform: scale(0.98); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(0.98); }
 }
 
-@keyframes appleGradient { 
-  0% { background-position: 0% 50%; } 
-  50% { background-position: 100% 50%; } 
-  100% { background-position: 0% 50%; } 
+@keyframes appleGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 /* ================================
@@ -406,19 +433,19 @@ footer {
   .hero h1 {
     font-size: 2.2rem;
   }
-  
+
   .cards {
     grid-template-columns: 1fr;
   }
-  
+
   .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
-  
+
   .section {
     padding: 40px 15px;
   }
-  
+
   .buttons {
     flex-direction: column;
     align-items: center;
@@ -429,15 +456,15 @@ footer {
   .hero {
     padding: 60px 15px;
   }
-  
+
   .hero h1 {
     font-size: 1.8rem;
   }
-  
+
   .hero h2 {
     font-size: 1.2rem;
   }
-  
+
   .apple-spinner {
     width: 64px;
     height: 64px;

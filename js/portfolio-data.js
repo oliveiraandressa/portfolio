@@ -1,24 +1,19 @@
-/**
- * PORTFOLIO DATA - Dados inline (sem CORS)
- * Todos os dados do portfolio em um arquivo JS
- */
-
 const PortfolioData = {
   pt: {
     personal: {
       nome: "Andressa Oliveira",
       titulo: "Andressa Oliveira",
-      subtitulo: "Front-End • UI/UX • QA",
-      descricao: "Crio protótipos interativos no Figma, design web, sistemas em Angular, apps com Ionic e automação de testes. Interfaces limpas e foco em acessibilidade.",
-      localizacao: "Jundiaí, SP",
-      disponibilidade: "Freelance / PJ",
-      stack: "Angular · Ionic · Figma",
+      subtitulo: "Full Stack • UI/UX • QA",
+      descricao: "Desenvolvimento de sistemas web completos, aplicativos híbridos, prototipação em Figma e testes manuais e automatizados, em modelo fixo ou sob demanda.",
+      tipoTrabalho: "Trabalho remoto",
+      contrato: "Freelance / PJ",
+      formatoTrabalho: "Fixo / sob demanda",
       projetos_count: "+12 projetos",
       projetos_desc: "web • mobile • design",
       imagens: {
-        hero_main: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop",
-        hero_small_1: "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=400&auto=format&fit=crop",
-        hero_small_2: "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=400&auto=format&fit=crop"
+        hero_main: "images/img_1.jpg",
+        hero_small_1: "images/img_2.jpg",
+        hero_small_2: "images/img_3.jpg"
       },
       botoes: {
         ver_projetos: "Ver projetos",
@@ -27,59 +22,59 @@ const PortfolioData = {
     },
 
     services: {
-      titulo: "O que eu faço",
+      titulo: "Áreas de Atuação",
       servicos: [
         {
           id: 1,
           titulo: "Prototipagem (Figma)",
-          descricao: "Protótipos interativos e handoffs prontos para dev.",
+          descricao: "Protótipos funcionais e prontos para desenvolvimento.",
           tecnologias: "Figma • Wireframes • Prototipagem",
-          icon: "M3 7h18M3 12h18M3 17h18",
+          icon: "M4 4h6v6H4V4zm10 0h6v6h-6V4zM4 14h6v6H4v-6zm10 3h6v3h-6v-3zm0-10h2v6h-2V7zm-6 10h2v3H8v-3z",
           cor: "rose",
           delay: 80
         },
         {
           id: 2,
           titulo: "Web Design & UI",
-          descricao: "Design limpo, responsivo e focado em conversão.",
+          descricao: "Design responsivo, direto e focado em boas conversões.",
           tecnologias: "UI/UX • Responsivo • Acessibilidade",
-          icon: "M4 6h16M4 12h8",
+          icon: "M3 4a1 1 0 011-1h16a1 1 0 011 1v12a1 1 0 01-1 1h-5v2h2a1 1 0 110 2H7a1 1 0 110-2h2v-2H4a1 1 0 01-1-1V4zm2 1v10h14V5H5z",
           cor: "indigo",
           delay: 160
         },
         {
           id: 3,
-          titulo: "Sistemas (Angular)",
-          descricao: "SPAs escaláveis com boas práticas e testes integrados.",
-          tecnologias: "Angular • TypeScript • SSR (opcional)",
-          icon: "M12 8v4l3 3",
+          titulo: "Sistemas",
+          descricao: "Desenvolvimento de SPAs rápidas e seguras.",
+          tecnologias: "Angular • React • TypeScript",
+          icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
           cor: "sky",
           delay: 240
         },
         {
           id: 4,
           titulo: "Aplicativos (Ionic)",
-          descricao: "Apps híbridos com performance nativa e plugins.",
+          descricao: "Apps híbridos com integração nativa.",
           tecnologias: "Ionic • Capacitor • Integrations",
-          icon: "M3 7h18M3 12h18M3 17h18",
+          icon: "M7 2h10a2 2 0 012 2v16a2 2 0 01-2 2H7a2 2 0 01-2-2V4a2 2 0 012-2zm0 2v16h10V4H7zm3 14h4v-1h-4v1z",
           cor: "green",
           delay: 320
         },
         {
           id: 5,
           titulo: "Artes para redes",
-          descricao: "Imagens que comunicam e convertem.",
+          descricao: "Criação visual para campanhas e conteúdo.",
           tecnologias: "Photoshop • Illustrator • Canva",
-          icon: "M4 6h16M4 12h16M4 18h16",
+          icon: "M7 2h10a2 2 0 012 2v12a2 2 0 01-2 2H7a2 2 0 01-2-2V4a2 2 0 012-2zm0 2v12h10V4H7zm2 2h6v2H9V6zm0 3h6v2H9V9zm0 3h4v2H9v-2z",
           cor: "pink",
           delay: 400
         },
         {
           id: 6,
           titulo: "QA & Testes",
-          descricao: "Automação sob demanda, testes manuais e documentação técnica.",
-          tecnologias: "Selenium • Playwright • Cases & Reports",
-          icon: "M9 12l2 2 4-4",
+          descricao: "Automação, testes manuais e documentação objetiva.",
+          tecnologias: "Cypress • Jest • Cases & Reports",
+          icon: "M12 1l9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4zm-2 16l7-7-1.41-1.41L10 14.17l-2.59-2.58L6 13l4 4z",
           cor: "amber",
           delay: 480
         }
@@ -93,7 +88,7 @@ const PortfolioData = {
         {
           id: 1,
           titulo: "Dashboard Financeiro",
-          descricao: "Sistema em Angular com charts, filtros e autenticação SSO.",
+          descricao: "Dashboard em Angular com gráficos, filtros e SSO.",
           tecnologias: "Angular • TypeScript • Chart.js",
           imagem: "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
@@ -103,7 +98,7 @@ const PortfolioData = {
         {
           id: 2,
           titulo: "App Delivery (Ionic)",
-          descricao: "App híbrido com geolocalização e pagamentos integrados.",
+          descricao: "App com mapa e pagamentos integrados.",
           tecnologias: "Ionic • Capacitor • APIs",
           imagem: "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=1200&auto=format&fit=crop",
           categoria: ["mobile"],
@@ -112,8 +107,8 @@ const PortfolioData = {
         },
         {
           id: 3,
-          titulo: "Landing & Marketing",
-          descricao: "Landing pages com foco em performance e SEO.",
+          titulo: "Landing Pages",
+          descricao: "Páginas rápidas, simples e bem otimizadas.",
           tecnologias: "HTML • CSS • SEO",
           imagem: "https://images.unsplash.com/photo-1604147706283-d711311a5b99?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
@@ -122,8 +117,8 @@ const PortfolioData = {
         },
         {
           id: 4,
-          titulo: "Artes & Social",
-          descricao: "Templates para campanha e posts.",
+          titulo: "Design Social",
+          descricao: "Artes para campanhas e engajamento.",
           tecnologias: "Photoshop • Illustrator",
           imagem: "https://images.unsplash.com/photo-1581276879432-15a19d654956?q=80&w=1200&auto=format&fit=crop",
           categoria: ["design"],
@@ -133,7 +128,7 @@ const PortfolioData = {
         {
           id: 5,
           titulo: "Prototipagem",
-          descricao: "Fluxos e clickable prototypes no Figma.",
+          descricao: "Fluxos navegáveis e protótipos no Figma.",
           tecnologias: "Figma • Prototyping",
           imagem: "https://images.unsplash.com/photo-1559027615-f6f1b9eaff6a?q=80&w=1200&auto=format&fit=crop",
           categoria: ["design"],
@@ -220,19 +215,19 @@ const PortfolioData = {
       depoimentos: [
         {
           id: 1,
-          texto: "Andressa entrega interfaces elegantes e funcionais, sempre com atenção aos detalhes.",
+          texto: "Andressa entrega interfaces diretas, bem feitas e sem enrolação.",
           autor: "João Silva",
           delay: 0
         },
         {
           id: 2,
-          texto: "Profissional dedicada, domina tanto design quanto desenvolvimento front-end.",
+          texto: "Organizada, rápida e com visão completa do front-end.",
           autor: "Maria Santos",
           delay: 120
         },
         {
           id: 3,
-          texto: "Trabalhar com Andressa foi uma experiência incrível, resultados sempre excelentes.",
+          texto: "Trabalhar com Andressa foi simples e eficiente. Resultado ótimo.",
           autor: "Pedro Costa",
           delay: 240
         }
@@ -241,13 +236,13 @@ const PortfolioData = {
 
     contact: {
       titulo: "Contato",
-      descricao: "Entre em contato direto - respondo rápido via WhatsApp.",
+      descricao: "Me chame no WhatsApp!",
       contatos: [
         {
           id: 1,
           tipo: "whatsapp",
           nome: "WhatsApp",
-          url: "https://wa.me/5511999999999",
+          url: "https://wa.me/5511993004619",
           icon: "M21 15a5 5 0 0 1-5 5H8l-4 4V5a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3z",
           cor: "green-300",
           target: "_blank"
@@ -256,7 +251,7 @@ const PortfolioData = {
           id: 2,
           tipo: "linkedin",
           nome: "LinkedIn",
-          url: "https://linkedin.com/in/seulinkedin",
+          url: "https://linkedin.com/in/andressadeoliveira93",
           icon: "M16 8a6 6 0 0 1 6 6v6h-4v-6a2 2 0 0 0-2-2 2 2 0 0 0-2 2v6h-4V8h4v1",
           cor: "sky-300",
           target: "_blank"
@@ -265,33 +260,35 @@ const PortfolioData = {
           id: 3,
           tipo: "email",
           nome: "Email",
-          url: "mailto:seuemail@email.com",
+          url: "mailto:ms.andressa.oliveira@gmail.com",
           icon: "M3 8l9 6 9-6",
           cor: "rose-300",
           target: "_self"
         }
       ],
       footer: {
-        texto: "Andressa Oliveira - Front-End Developer"
+        texto: "Andressa Oliveira - Soluções digitais"
       }
     }
   },
+
+  /* ==============================
+     ENGLISH VERSION (same format)
+     ============================== */
 
   en: {
     personal: {
       nome: "Andressa Oliveira",
       titulo: "Andressa Oliveira",
-      subtitulo: "Front-End • UI/UX • QA",
-      descricao: "I create interactive prototypes in Figma, web design, Angular systems, Ionic apps and test automation. Clean interfaces and focus on accessibility.",
-      localizacao: "Jundiaí, SP",
-      disponibilidade: "Freelance / Contract",
-      stack: "Angular · Ionic · Figma",
-      projetos_count: "+12 projects",
-      projetos_desc: "web • mobile • design",
+      subtitulo: "Full Stack • UI/UX • QA",
+      descricao: "Development of complete web systems, hybrid apps, Figma prototyping, and manual/automated testing, available full-time or on-demand.",
+      tipoTrabalho: "Remote work",
+      contrato: "Freelance / Contract",
+      formatoTrabalho: "Full-time / on-demand",
       imagens: {
-        hero_main: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop",
-        hero_small_1: "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=400&auto=format&fit=crop",
-        hero_small_2: "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=400&auto=format&fit=crop"
+        hero_main: "images/img_1.jpg",
+        hero_small_1: "images/img_2.jpg",
+        hero_small_2: "images/img_3.jpg"
       },
       botoes: {
         ver_projetos: "View Projects",
@@ -300,59 +297,59 @@ const PortfolioData = {
     },
 
     services: {
-      titulo: "What I Do",
+      titulo: "Areas of Expertise",
       servicos: [
         {
           id: 1,
           titulo: "Prototyping (Figma)",
-          descricao: "Interactive prototypes and dev-ready handoffs.",
+          descricao: "Functional prototypes and clean flows.",
           tecnologias: "Figma • Wireframes • Prototyping",
-          icon: "M3 7h18M3 12h18M3 17h18",
+          icon: "M4 4h6v6H4V4zm10 0h6v6h-6V4zM4 14h6v6H4v-6zm10 3h6v3h-6v-3zm0-10h2v6h-2V7zm-6 10h2v3H8v-3z",
           cor: "rose",
           delay: 80
         },
         {
           id: 2,
           titulo: "Web Design & UI",
-          descricao: "Clean, responsive design focused on conversion.",
+          descricao: "Clean and responsive design with focus on usability.",
           tecnologias: "UI/UX • Responsive • Accessibility",
-          icon: "M4 6h16M4 12h8",
+          icon: "M3 4a1 1 0 011-1h16a1 1 0 011 1v12a1 1 0 01-1 1h-5v2h2a1 1 0 110 2H7a1 1 0 110-2h2v-2H4a1 1 0 01-1-1V4zm2 1v10h14V5H5z",
           cor: "indigo",
           delay: 160
         },
         {
           id: 3,
-          titulo: "Systems (Angular)",
-          descricao: "Scalable SPAs with best practices and integrated tests.",
-          tecnologias: "Angular • TypeScript • SSR (optional)",
-          icon: "M12 8v4l3 3",
+          titulo: "Systems",
+          descricao: "Fast and scalable SPAs.",
+          tecnologias: "Angular • React • TypeScript",
+          icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
           cor: "sky",
           delay: 240
         },
         {
           id: 4,
           titulo: "Apps (Ionic)",
-          descricao: "Hybrid apps with native performance and plugins.",
+          descricao: "Hybrid apps with native integrations.",
           tecnologias: "Ionic • Capacitor • Integrations",
-          icon: "M3 7h18M3 12h18M3 17h18",
+          icon: "M7 2h10a2 2 0 012 2v16a2 2 0 01-2 2H7a2 2 0 01-2-2V4a2 2 0 012-2zm0 2v16h10V4H7zm3 14h4v-1h-4v1z",
           cor: "green",
           delay: 320
         },
         {
           id: 5,
           titulo: "Social Media Art",
-          descricao: "Images that communicate and convert.",
+          descricao: "Visual material for posts and campaigns.",
           tecnologias: "Photoshop • Illustrator • Canva",
-          icon: "M4 6h16M4 12h16M4 18h16",
+          icon: "M7 2h10a2 2 0 012 2v12a2 2 0 01-2 2H7a2 2 0 01-2-2V4a2 2 0 012-2zm0 2v12h10V4H7zm2 2h6v2H9V6zm0 3h6v2H9V9zm0 3h4v2H9v-2z",
           cor: "pink",
           delay: 400
         },
         {
           id: 6,
           titulo: "QA & Testing",
-          descricao: "On-demand automation, manual testing and technical documentation.",
-          tecnologias: "Selenium • Playwright • Cases & Reports",
-          icon: "M9 12l2 2 4-4",
+          descricao: "Automation, manual testing and documentation.",
+          tecnologias: "Cypress • Jest • Cases & Reports",
+          icon: "M12 1l9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4zm-2 16l7-7-1.41-1.41L10 14.17l-2.59-2.58L6 13l4 4z",
           cor: "amber",
           delay: 480
         }
@@ -366,7 +363,7 @@ const PortfolioData = {
         {
           id: 1,
           titulo: "Financial Dashboard",
-          descricao: "Angular system with charts, filters and SSO authentication.",
+          descricao: "Angular dashboard with charts, filters and SSO.",
           tecnologias: "Angular • TypeScript • Chart.js",
           imagem: "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
@@ -376,7 +373,7 @@ const PortfolioData = {
         {
           id: 2,
           titulo: "Delivery App (Ionic)",
-          descricao: "Hybrid app with geolocation and integrated payments.",
+          descricao: "App with map and payment integration.",
           tecnologias: "Ionic • Capacitor • APIs",
           imagem: "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=1200&auto=format&fit=crop",
           categoria: ["mobile"],
@@ -385,8 +382,8 @@ const PortfolioData = {
         },
         {
           id: 3,
-          titulo: "Landing & Marketing",
-          descricao: "Landing pages focused on performance and SEO.",
+          titulo: "Landing Pages",
+          descricao: "Fast and SEO-friendly landing pages.",
           tecnologias: "HTML • CSS • SEO",
           imagem: "https://images.unsplash.com/photo-1604147706283-d711311a5b99?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
@@ -396,7 +393,7 @@ const PortfolioData = {
         {
           id: 4,
           titulo: "Social Media Art",
-          descricao: "Campaign templates and posts.",
+          descricao: "Designs for posts and campaigns.",
           tecnologias: "Photoshop • Illustrator",
           imagem: "https://images.unsplash.com/photo-1581276879432-15a19d654956?q=80&w=1200&auto=format&fit=crop",
           categoria: ["design"],
@@ -406,7 +403,7 @@ const PortfolioData = {
         {
           id: 5,
           titulo: "Prototyping",
-          descricao: "Flows and clickable prototypes in Figma.",
+          descricao: "Clickable flows and prototypes.",
           tecnologias: "Figma • Prototyping",
           imagem: "https://images.unsplash.com/photo-1559027615-f6f1b9eaff6a?q=80&w=1200&auto=format&fit=crop",
           categoria: ["design"],
@@ -493,19 +490,19 @@ const PortfolioData = {
       depoimentos: [
         {
           id: 1,
-          texto: "Andressa delivers elegant and functional interfaces, always with attention to detail.",
+          texto: "Andressa delivers clear and well-designed interfaces.",
           autor: "John Silva",
           delay: 0
         },
         {
           id: 2,
-          texto: "Dedicated professional, masters both design and front-end development.",
+          texto: "Fast, organized and consistent in quality.",
           autor: "Maria Santos",
           delay: 120
         },
         {
           id: 3,
-          texto: "Working with Andressa was an incredible experience, always excellent results.",
+          texto: "Great results and easy communication.",
           autor: "Peter Costa",
           delay: 240
         }
@@ -514,13 +511,13 @@ const PortfolioData = {
 
     contact: {
       titulo: "Contact",
-      descricao: "Get in touch directly - I respond quickly via WhatsApp.",
+      descricao: "Message me on WhatsApp!",
       contatos: [
         {
           id: 1,
           tipo: "whatsapp",
           nome: "WhatsApp",
-          url: "https://wa.me/5511999999999",
+          url: "https://wa.me/5511993004619",
           icon: "M21 15a5 5 0 0 1-5 5H8l-4 4V5a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3z",
           cor: "green-300",
           target: "_blank"
@@ -529,7 +526,7 @@ const PortfolioData = {
           id: 2,
           tipo: "linkedin",
           nome: "LinkedIn",
-          url: "https://linkedin.com/in/seulinkedin",
+          url: "https://linkedin.com/in/andressadeoliveira93",
           icon: "M16 8a6 6 0 0 1 6 6v6h-4v-6a2 2 0 0 0-2-2 2 2 0 0 0-2 2v6h-4V8h4v1",
           cor: "sky-300",
           target: "_blank"
@@ -538,18 +535,19 @@ const PortfolioData = {
           id: 3,
           tipo: "email",
           nome: "Email",
-          url: "mailto:seuemail@email.com",
+          url: "mailto:ms.andressa.oliveira@gmail.com",
           icon: "M3 8l9 6 9-6",
           cor: "rose-300",
           target: "_self"
         }
       ],
       footer: {
-        texto: "Andressa Oliveira - Front-End Developer"
+        texto: "Andressa Oliveira - Digital Solutions"
       }
     }
   }
 };
+
 
 // Disponibilizar globalmente
 window.PortfolioData = PortfolioData;
