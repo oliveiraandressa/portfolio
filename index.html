@@ -1,37 +1,109 @@
-<!DOCTYPE html>
-<html lang="pt-br" class="scroll-smooth">
+<!doctype html>
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Andressa • Front-end & QA</title>
+  <title id="page-title">Andressa Oliveira - Portfolio</title>
+  <meta name="description" content="Portfolio dinâmico carregado via JSON" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+<body>
 
-<body class="bg-[#0b0b0d] text-gray-200 font-sans">
+  <div id="preloader" aria-hidden="true">
+    <div class="apple-spinner" role="img" aria-label="Carregando"></div>
+  </div>
 
-  <section id="home" class="min-h-screen flex items-center px-6">
-    <div class="max-w-6xl mx-auto grid gap-10 items-center">
-      
-      <div>
-        <h2 class="text-5xl font-bold leading-tight mb-6">
-          Desenvolvedora <span class="text-pink-400">Front-end</span> & QA
-        </h2>
-        <p class="text-gray-300 text-lg">
-          Crio interfaces modernas, sistemas escaláveis e realizo testes completos para garantir qualidade e performance.
-        </p>
+  <div id="pageOverlay" class="" aria-hidden="true">
+    <div class="w-48 h-48 rounded-2xl glass-heavy flex items-center justify-center">
+      <svg class="w-12 h-12 animate-spin" viewBox="0 0 24 24" fill="none" stroke="#ffdada"><path d="M12 2v4M12 18v4M4.2 4.2l2.8 2.8M17 17l2.8 2.8M2 12h4M18 12h4M4.2 19.8l2.8-2.8M17 7l2.8-2.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+  </div>
 
-        <div class="mt-8">
-          <a href="https://api.whatsapp.com/send/?phone=5511993004619&text=Ol%C3%A1%2C+adorei+o+seu+curr%C3%ADculo+e+quero+voc%C3%AA+no+meu+time%21&type=phone_number&app_absent=0"
-            class="bg-pink-500 hover:bg-pink-600 duration-200 px-6 py-3 rounded-lg text-white font-semibold" target="_blank">
-            Entrar em Contato
-          </a>
+  <header class="inset-x-0 top-4 z-40 flex justify-center pointer-events-none">
+    <div class="page-width pointer-events-auto">
+      <nav id="mainNav" class="glass-heavy flex items-center justify-between px-6 py-3 rounded-xl border-gray-800">
+        <div class="flex items-center gap-4">
+          <button id="brandBtn" class="text-white font-semibold text-lg tracking-tight hover:opacity-95">Carregando...</button>
+          <div class="hidden md:flex gap-2 items-center ml-4">
+            <a href="#home" class="nav-link text-sm text-gray-300 px-3 py-2 rounded hover:bg-white/3">Home</a>
+            <a href="#services" class="nav-link text-sm text-gray-300 px-3 py-2 rounded hover:bg-white/3">Serviços</a>
+            <a href="#projects" class="nav-link text-sm text-gray-300 px-3 py-2 rounded hover:bg-white/3">Projetos</a>
+            <a href="#skills" class="nav-link text-sm text-gray-300 px-3 py-2 rounded hover:bg-white/3">Habilidades</a>
+            <a href="#contact" class="nav-link text-sm text-gray-300 px-3 py-2 rounded hover:bg-white/3">Contato</a>
+          </div>
         </div>
+
+        <div class="flex items-center gap-3">
+          <select id="langSelect" class="bg-transparent text-gray-300 text-sm border border-transparent focus:border-white/10 rounded px-2 py-1">
+            <option value="pt">PT</option>
+            <option value="en">EN</option>
+          </select>
+          <button id="mobileMenuBtn" class="md:hidden p-2 rounded bg-white/3 text-gray-200" aria-label="Abrir menu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-current" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div id="mobileNav" class="fixed inset-0 z-50 bg-black/60 hidden">
+    <div class="absolute top-20 left-1/2 -translate-x-1/2 w-[92%] max-w-md glass rounded-xl p-4">
+      <div class="flex flex-col gap-2">
+        <a href="#home" class="block py-3 px-4 rounded hover:bg-white/3">Home</a>
+        <a href="#services" class="block py-3 px-4 rounded hover:bg-white/3">Serviços</a>
+        <a href="#projects" class="block py-3 px-4 rounded hover:bg-white/3">Projetos</a>
+        <a href="#skills" class="block py-3 px-4 rounded hover:bg-white/3">Habilidades</a>
+        <a href="#contact" class="block py-3 px-4 rounded hover:bg-white/3">Contato</a>
       </div>
     </div>
-  </section>
-  <footer class="py-6 text-center text-gray-500 text-sm">
-    © 2025 • Andressa — Front-end & QA
-  </footer>
+  </div>
 
+  <main class="pt-28">
+
+    <section id="home" class="min-h-screen flex items-center page-section" data-page="home" aria-label="Home">
+      <div id="home-content" class="page-width mx-auto">
+      </div>
+    </section>
+
+    <section id="services" class="py-20 page-section" data-page="services">
+      <div id="services-content" class="page-width mx-auto">
+      </div>
+    </section>
+
+    <section id="projects" class="py-20 page-section" data-page="projects">
+      <div id="projects-content" class="page-width mx-auto">
+      </div>
+    </section>
+
+    <section id="skills" class="py-20 page-section" data-page="skills">
+      <div id="skills-content" class="page-width mx-auto">
+      </div>
+    </section>
+
+    <section id="testimonials" class="py-20">
+      <div id="testimonials-content" class="page-width mx-auto">
+      </div>
+    </section>
+
+    <section id="contact" class="py-12 page-section" data-page="contact">
+      <div id="contact-content" class="page-width mx-auto text-center">
+      </div>
+    </section>
+
+    <footer id="footer-content" class="py-8">
+    </footer>
+
+  </main>
+
+  <!-- SCRIPTS -->
+  <script src="js/script.js"></script>
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/enhanced-loader.js"></script>
 </body>
 </html>

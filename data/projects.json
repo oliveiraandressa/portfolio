@@ -1,0 +1,66 @@
+{
+  "titulo": "Projetos",
+  "filtros": ["All", "Web", "Mobile", "Design"],
+  "projetos": [
+    {
+      "id": 1,
+      "titulo": "Dashboard Financeiro",
+      "descricao": "Sistema em Angular com charts, filtros e autenticação SSO.",
+      "tecnologias": "Angular • TypeScript • Chart.js",
+      "imagem": "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1200&auto=format&fit=crop",
+      "categoria": ["Web"],
+      "delay": 120,
+      "destaque": true
+    },
+    {
+      "id": 2,
+      "titulo": "App Delivery (Ionic)",
+      "descricao": "App híbrido com geolocalização e pagamentos integrados.",
+      "tecnologias": "Ionic • Capacitor • APIs",
+      "imagem": "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=1200&auto=format&fit=crop",
+      "categoria": ["Mobile"],
+      "delay": 200,
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "titulo": "Landing & Marketing",
+      "descricao": "Landing pages com foco em performance e SEO.",
+      "tecnologias": "HTML • CSS • SEO",
+      "imagem": "https://images.unsplash.com/photo-1604147706283-d711311a5b99?q=80&w=1200&auto=format&fit=crop",
+      "categoria": ["Web"],
+      "delay": 280,
+      "destaque": true
+    },
+    {
+      "id": 4,
+      "titulo": "Artes & Social",
+      "descricao": "Templates para campanha e posts.",
+      "tecnologias": "Photoshop • Illustrator",
+      "imagem": "https://images.unsplash.com/photo-1581276879432-15a19d654956?q=80&w=1200&auto=format&fit=crop",
+      "categoria": ["Design"],
+      "delay": 360,
+      "destaque": false
+    },
+    {
+      "id": 5,
+      "titulo": "Prototipagem",
+      "descricao": "Fluxos e clickable prototypes no Figma.",
+      "tecnologias": "Figma • Prototyping",
+      "imagem": "https://images.unsplash.com/photo-1559027615-f6f1b9eaff6a?q=80&w=1200&auto=format&fit=crop",
+      "categoria": ["Design"],
+      "delay": 420,
+      "destaque": false
+    },
+    {
+      "id": 6,
+      "titulo": "QA / Automação",
+      "descricao": "Testes manuais, automação e relatórios.",
+      "tecnologias": "Selenium • Cypress",
+      "imagem": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=1200&auto=format&fit=crop",
+      "categoria": ["Web"],
+      "delay": 480,
+      "destaque": false
+    }
+  ]
+}

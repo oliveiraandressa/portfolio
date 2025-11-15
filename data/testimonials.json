@@ -1,0 +1,23 @@
+{
+  "titulo": "Depoimentos",
+  "depoimentos": [
+    {
+      "id": 1,
+      "texto": "Andressa entrega interfaces elegantes e funcionais, sempre com atenção aos detalhes.",
+      "autor": "João Silva",
+      "delay": 0
+    },
+    {
+      "id": 2,
+      "texto": "Profissional dedicada, domina tanto design quanto desenvolvimento front-end.",
+      "autor": "Maria Santos",
+      "delay": 120
+    },
+    {
+      "id": 3,
+      "texto": "Trabalhar com Andressa foi uma experiência incrível, resultados sempre excelentes.",
+      "autor": "Pedro Costa",
+      "delay": 240
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "titulo": "Contato",
+  "descricao": "Entre em contato direto - respondo rápido via WhatsApp.",
+  "contatos": [
+    {
+      "id": 1,
+      "tipo": "whatsapp",
+      "nome": "WhatsApp",
+      "url": "https://wa.me/5511999999999",
+      "icon": "M21 15a5 5 0 0 1-5 5H8l-4 4V5a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3z",
+      "cor": "green-300",
+      "target": "_blank"
+    },
+    {
+      "id": 2,
+      "tipo": "linkedin",
+      "nome": "LinkedIn",
+      "url": "https://linkedin.com/in/seulinkedin",
+      "icon": "M16 8a6 6 0 0 1 6 6v6h-4v-6a2 2 0 0 0-2-2 2 2 0 0 0-2 2v6h-4V8h4v1",
+      "cor": "sky-300",
+      "target": "_blank"
+    },
+    {
+      "id": 3,
+      "tipo": "email",
+      "nome": "Email",
+      "url": "mailto:seuemail@email.com",
+      "icon": "M3 8l9 6 9-6",
+      "cor": "rose-300",
+      "target": "_self"
+    }
+  ],
+  "footer": {
+    "texto": "Andressa Oliveira - Front-End Developer"
+  }
+}

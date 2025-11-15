@@ -1,0 +1,20 @@
+{
+  "nome": "Andressa Oliveira",
+  "titulo": "Andressa Oliveira", 
+  "subtitulo": "Front-End • UI/UX • QA",
+  "descricao": "I create interactive prototypes in Figma, web design, Angular systems, Ionic apps and test automation. Clean interfaces and focus on accessibility.",
+  "localizacao": "Jundiaí, SP",
+  "disponibilidade": "Freelance / Contract",
+  "stack": "Angular · Ionic · Figma",
+  "projetos_count": "+12 projects",
+  "projetos_desc": "web • mobile • design",
+  "imagens": {
+    "hero_main": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop",
+    "hero_small_1": "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=400&auto=format&fit=crop",
+    "hero_small_2": "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=400&auto=format&fit=crop"
+  },
+  "botoes": {
+    "ver_projetos": "View Projects",
+    "contato": "Contact"
+  }
+}

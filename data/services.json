@@ -1,0 +1,59 @@
+{
+  "titulo": "O que eu faço",
+  "servicos": [
+    {
+      "id": 1,
+      "titulo": "Prototipagem (Figma)",
+      "descricao": "Prototótipos interativos e handoffs prontos para dev.",
+      "tecnologias": "Figma • Wireframes • Prototipagem",
+      "icon": "M3 7h18M3 12h18M3 17h18",
+      "cor": "rose",
+      "delay": 80
+    },
+    {
+      "id": 2,
+      "titulo": "Web Design & UI",
+      "descricao": "Design limpo, responsivo e focado em conversão.",
+      "tecnologias": "UI/UX • Responsivo • Acessibilidade",
+      "icon": "M4 6h16M4 12h8",
+      "cor": "indigo",
+      "delay": 160
+    },
+    {
+      "id": 3,
+      "titulo": "Sistemas (Angular)",
+      "descricao": "SPAs escaláveis com boas práticas e testes integrados.",
+      "tecnologias": "Angular • TypeScript • SSR (opcional)",
+      "icon": "M12 8v4l3 3",
+      "cor": "sky",
+      "delay": 240
+    },
+    {
+      "id": 4,
+      "titulo": "Aplicativos (Ionic)",
+      "descricao": "Apps híbridos com performance nativa e plugins.",
+      "tecnologias": "Ionic • Capacitor • Integrations",
+      "icon": "M3 7h18M3 12h18M3 17h18",
+      "cor": "green",
+      "delay": 320
+    },
+    {
+      "id": 5,
+      "titulo": "Artes para redes",
+      "descricao": "Imagens que comunicam e convertem.",
+      "tecnologias": "Photoshop • Illustrator • Canva",
+      "icon": "M4 6h16M4 12h16M4 18h16",
+      "cor": "pink",
+      "delay": 400
+    },
+    {
+      "id": 6,
+      "titulo": "QA & Testes",
+      "descricao": "Automação sob demanda, testes manuais e documentação técnica.",
+      "tecnologias": "Selenium • Playwright • Cases & Reports",
+      "icon": "M9 12l2 2 4-4",
+      "cor": "amber",
+      "delay": 480
+    }
+  ]
+}
