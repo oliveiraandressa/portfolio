@@ -31,6 +31,7 @@ Apresentação pessoal com call-to-actions e informações de disponibilidade
 - Aplicativos (Ionic)
 - Arte para Redes Sociais
 - QA & Testes
+<!--
 
 ### 🎯 **Projetos**
 
@@ -46,7 +47,7 @@ Visualização interativa das competências técnicas:
 
 - **Front-End** - HTML, CSS, JavaScript, Angular
 - **Design** - Figma, UI/UX
-- **QA** - Automação e testes manuais
+- **QA** - Automação e testes manuais -->
 
 ### 📞 **Contato**
 
