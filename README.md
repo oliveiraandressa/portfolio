@@ -46,7 +46,7 @@ Competências técnicas em front-end, back-end, QA, DevOps e IA & automação.
 
 ### Contato
 
-WhatsApp, LinkedIn, e-mail e link para download do currículo.
+WhatsApp, LinkedIn, e-mail e download do currículo em PDF.
 
 ## Tecnologias
 
@@ -76,7 +76,8 @@ portfolio/
 │   ├── portfolio-data.js    # Dados PT/EN centralizados
 │   ├── data-loader.js       # Renderização dinâmica e i18n
 │   └── script.js            # Navegação, preloader e animações
-├── curriculo.md             # Currículo em Markdown
+├── data/
+│   └── Curriculo_Andressa.pdf  # Currículo em PDF
 ├── index.html
 └── README.md
 ```

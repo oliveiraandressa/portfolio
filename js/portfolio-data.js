@@ -11,8 +11,8 @@ const PortfolioData = {
       experiencia: "10+ anos",
       imagens: {
         hero_main: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop",
-        hero_small_1: "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=400&auto=format&fit=crop",
-        hero_small_2: "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=400&auto=format&fit=crop"
+        hero_small_1: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=400&auto=format&fit=crop",
+        hero_small_2: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=400&auto=format&fit=crop"
       },
       botoes: {
         ver_projetos: "Ver projetos",
@@ -153,7 +153,7 @@ const PortfolioData = {
           titulo: "Plataforma corporativa web",
           descricao: "Aplicações internas com Angular e React, integração REST, tratamento de erros e testes com Jest em pipeline de CI/CD.",
           tecnologias: "Angular • React • TypeScript • Jest • CI/CD",
-          imagem: "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1551281056-b31fe85ccbef?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
           delay: 120,
           destaque: true
@@ -163,7 +163,7 @@ const PortfolioData = {
           titulo: "API e integração full stack",
           descricao: "Back-end com Node.js e Express, modelagem de dados em MySQL/PostgreSQL e orquestração com Docker Compose.",
           tecnologias: "Node.js • Express • MySQL • PostgreSQL • Docker",
-          imagem: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
           delay: 200,
           destaque: true
@@ -173,7 +173,7 @@ const PortfolioData = {
           titulo: "App híbrido mobile",
           descricao: "Aplicativos com Ionic e Capacitor, integrações nativas e consumo de APIs para fluxos mobile corporativos.",
           tecnologias: "Ionic • Capacitor • APIs REST",
-          imagem: "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop",
           categoria: ["mobile"],
           delay: 280,
           destaque: true
@@ -183,7 +183,7 @@ const PortfolioData = {
           titulo: "Fluxo de qualidade e automação",
           descricao: "Estruturação de testes E2E com Cypress, critérios de aceite e rastreabilidade de demandas no Azure DevOps.",
           tecnologias: "Cypress • Jest • Azure DevOps • QA",
-          imagem: "https://images.unsplash.com/photo-1604147706283-d711311a5b99?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
           categoria: ["qa"],
           delay: 360,
           destaque: false
@@ -193,7 +193,7 @@ const PortfolioData = {
           titulo: "Prototipação e validação técnica",
           descricao: "Protótipos no Figma convertidos em interfaces responsivas, apoiando decisões de produto e arquitetura.",
           tecnologias: "Figma • UI/UX • Angular • React",
-          imagem: "https://images.unsplash.com/photo-1559027615-f6f1b9eaff6a?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
           delay: 420,
           destaque: false
@@ -203,7 +203,7 @@ const PortfolioData = {
           titulo: "IA no ciclo de desenvolvimento",
           descricao: "Uso de IA generativa para documentação técnica, organização de requisitos, prototipação e automação de tarefas do dia a dia.",
           tecnologias: "IA generativa • Documentação • Automação • Blip",
-          imagem: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop",
           categoria: ["ia"],
           delay: 480,
           destaque: false
@@ -327,7 +327,7 @@ const PortfolioData = {
           id: 4,
           tipo: "resume",
           nome: "Baixar currículo",
-          url: "curriculo.md",
+          url: "data/Curriculo_Andressa.pdf",
           icon: "M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
           cor: "violet-300",
           target: "_blank"
@@ -351,8 +351,8 @@ const PortfolioData = {
       experiencia: "10+ years",
       imagens: {
         hero_main: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop",
-        hero_small_1: "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=400&auto=format&fit=crop",
-        hero_small_2: "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=400&auto=format&fit=crop"
+        hero_small_1: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=400&auto=format&fit=crop",
+        hero_small_2: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=400&auto=format&fit=crop"
       },
       botoes: {
         ver_projetos: "View projects",
@@ -493,7 +493,7 @@ const PortfolioData = {
           titulo: "Corporate web platform",
           descricao: "Internal applications with Angular and React, REST integration, error handling, and Jest tests in CI/CD pipelines.",
           tecnologias: "Angular • React • TypeScript • Jest • CI/CD",
-          imagem: "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1551281056-b31fe85ccbef?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
           delay: 120,
           destaque: true
@@ -503,7 +503,7 @@ const PortfolioData = {
           titulo: "Full stack API integration",
           descricao: "Node.js and Express back-end, MySQL/PostgreSQL data modeling, and Docker Compose orchestration.",
           tecnologias: "Node.js • Express • MySQL • PostgreSQL • Docker",
-          imagem: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
           delay: 200,
           destaque: true
@@ -513,7 +513,7 @@ const PortfolioData = {
           titulo: "Hybrid mobile app",
           descricao: "Ionic and Capacitor apps with native integrations and API consumption for corporate mobile flows.",
           tecnologias: "Ionic • Capacitor • REST APIs",
-          imagem: "https://images.unsplash.com/photo-1551033541-2075d8363c62?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop",
           categoria: ["mobile"],
           delay: 280,
           destaque: true
@@ -523,7 +523,7 @@ const PortfolioData = {
           titulo: "Quality and automation workflow",
           descricao: "E2E testing with Cypress, acceptance criteria, and demand traceability in Azure DevOps.",
           tecnologias: "Cypress • Jest • Azure DevOps • QA",
-          imagem: "https://images.unsplash.com/photo-1604147706283-d711311a5b99?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
           categoria: ["qa"],
           delay: 360,
           destaque: false
@@ -533,7 +533,7 @@ const PortfolioData = {
           titulo: "Prototyping and technical validation",
           descricao: "Figma prototypes turned into responsive interfaces, supporting product and architecture decisions.",
           tecnologias: "Figma • UI/UX • Angular • React",
-          imagem: "https://images.unsplash.com/photo-1559027615-f6f1b9eaff6a?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
           delay: 420,
           destaque: false
@@ -543,7 +543,7 @@ const PortfolioData = {
           titulo: "AI in the development lifecycle",
           descricao: "Generative AI for technical documentation, requirements organization, prototyping, and daily task automation.",
           tecnologias: "Generative AI • Documentation • Automation • Blip",
-          imagem: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop",
           categoria: ["ia", "ai"],
           delay: 480,
           destaque: false
@@ -667,7 +667,7 @@ const PortfolioData = {
           id: 4,
           tipo: "resume",
           nome: "Download resume",
-          url: "curriculo.md",
+          url: "data/Curriculo_Andressa.pdf",
           icon: "M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
           cor: "violet-300",
           target: "_blank"

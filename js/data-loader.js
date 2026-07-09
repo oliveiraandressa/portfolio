@@ -32,21 +32,13 @@ class EnhancedPortfolioLoader {
   }
 
   detectLanguage() {
-    // Verificar se há idioma salvo no localStorage
     const savedLang = localStorage.getItem('portfolio-lang');
     if (savedLang && ['pt', 'en'].includes(savedLang)) {
       this.currentLang = savedLang;
       return;
     }
 
-    // Detectar idioma do navegador
-    const browserLang = navigator.language.substring(0, 2);
-    this.currentLang = ['pt', 'en'].includes(browserLang) ? browserLang : 'pt';
-
-    // Verificar se os dados para o idioma detectado existem
-    if (!this.isLanguageDataComplete(this.currentLang)) {
-      this.currentLang = 'pt';
-    }
+    this.currentLang = 'pt';
   }
 
   isLanguageDataComplete(lang) {
@@ -223,8 +215,8 @@ class EnhancedPortfolioLoader {
           <div class="glass-heavy rounded-2xl p-4 shadow-xl">
             <img src="${personal.imagens.hero_main}" alt="Developer workspace" class="thumb rounded-lg mx-auto">
             <div class="mt-3 grid grid-cols-2 gap-2">
-              <img src="${personal.imagens.hero_small_1}" class="rounded-md" />
-              <img src="${personal.imagens.hero_small_2}" class="rounded-md" />
+              <img src="${personal.imagens.hero_small_1}" alt="${this.currentLang === 'pt' ? 'Código em tela de desenvolvimento' : 'Code on development screen'}" class="rounded-md" />
+              <img src="${personal.imagens.hero_small_2}" alt="${this.currentLang === 'pt' ? 'Laptop em ambiente de trabalho' : 'Laptop in workspace'}" class="rounded-md" />
             </div>
           </div>
         </div>
@@ -421,7 +413,8 @@ class EnhancedPortfolioLoader {
     const contactsHTML = contact.contatos.map(contato => `
       <a class="contact-btn ${contato.tipo} glass-heavy inline-flex items-center gap-3 px-5 py-3 rounded-full hover:scale-105 transition-transform"
          href="${contato.url}"
-         ${contato.target === '_blank' ? 'target="_blank" rel="noreferrer"' : ''}>
+         ${contato.target === '_blank' ? 'target="_blank" rel="noreferrer"' : ''}
+         ${contato.tipo === 'resume' ? 'download="Curriculo_Andressa.pdf"' : ''}>
         <svg class="w-5 h-5 text-${contato.cor}" viewBox="0 0 24 24" fill="none" stroke="currentColor">
           <path d="${contato.icon}"/>
         </svg>
