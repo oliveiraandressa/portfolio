@@ -25,12 +25,12 @@ Apresentação profissional com 10+ anos de experiência, CTAs e informações d
 
 ### Serviços
 
-- Front-end corporativo (Angular, React, TypeScript)
-- Back-end & APIs (Node.js, Express, MySQL, PostgreSQL)
-- IA aplicada ao desenvolvimento
-- Automação conversacional (Blip, chatbots)
-- UI/UX & Prototipagem (Figma)
-- QA, testes & DevOps (Jest, Cypress, Docker, CI/CD)
+- Desenvolvimento web & mobile (Angular, React, Ionic, TypeScript, Figma)
+- Back-end & integrações (Node.js, Express, APIs REST, MySQL, PostgreSQL)
+- Automação conversacional & IA (Blip, chatbots, IA generativa)
+- Testes & qualidade de software (Jest, Cypress, Testing Library, Azure Test Plans)
+- Infraestrutura & DevOps (Docker, CI/CD, SonarQube, Datadog)
+- Metodologias & processos ágeis (Scrum, Kanban, TDD, BDD)
 
 ### Experiência
 

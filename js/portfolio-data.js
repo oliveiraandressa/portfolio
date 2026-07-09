@@ -19,7 +19,7 @@ const PortfolioData = {
         contato: "Contato"
       },
       meta: {
-        title: "Andressa Oliveira — Full Stack, IA aplicada e QA",
+        title: "Andressa Oliveira - Full Stack, IA aplicada e QA",
         description: "Desenvolvedora Full Stack com 10+ anos de experiência em Angular, React, Node.js, testes automatizados e IA aplicada ao desenvolvimento."
       }
     },
@@ -39,56 +39,56 @@ const PortfolioData = {
       servicos: [
         {
           id: 1,
-          titulo: "Front-end corporativo",
-          descricao: "SPAs escaláveis com componentes reutilizáveis, routing e integração com APIs REST.",
-          tecnologias: "Angular • React • TypeScript • Interceptors",
+          titulo: "Desenvolvimento web & mobile",
+          descricao: "Aplicações corporativas e apps híbridos com interfaces responsivas, componentes reutilizáveis e integração com APIs.",
+          tecnologias: "Angular • React • Ionic • TypeScript • HTML5 • CSS3 • SASS • Bootstrap • Figma",
           icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
           cor: "sky",
           delay: 80
         },
         {
           id: 2,
-          titulo: "Back-end & APIs",
-          descricao: "Serviços, endpoints e regras de negócio com integração entre front-end, back-end e banco de dados.",
-          tecnologias: "Node.js • Express • REST • MySQL • PostgreSQL",
+          titulo: "Back-end & integrações",
+          descricao: "APIs REST, serviços, regras de negócio e modelagem de dados entre front-end, back-end e banco de dados.",
+          tecnologias: "Node.js • Express • APIs REST • JSON • Postman • MySQL • PostgreSQL",
           icon: "M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2",
           cor: "indigo",
           delay: 160
         },
         {
           id: 3,
-          titulo: "IA aplicada ao desenvolvimento",
-          descricao: "Uso de IA generativa para documentação, prototipação, revisão de soluções e automação de fluxos de trabalho.",
-          tecnologias: "IA generativa • Documentação • Prototipação • Automação",
-          icon: "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z",
-          cor: "violet",
+          titulo: "Automação conversacional & IA",
+          descricao: "Chatbots, fluxos de atendimento e uso de IA generativa para produtividade, documentação e apoio ao desenvolvimento.",
+          tecnologias: "Blip • Chatbots • Automação de atendimento • IA generativa • Fluxos conversacionais",
+          icon: "M21 15a5 5 0 01-5 5H8l-4 4V5a3 3 0 013-3h12a3 3 0 013 3z",
+          cor: "green",
           delay: 240
         },
         {
           id: 4,
-          titulo: "Automação conversacional",
-          descricao: "Chatbots, fluxos de atendimento e integração com APIs para automação de processos conversacionais.",
-          tecnologias: "Blip • Chatbots • Fluxos de atendimento • APIs",
-          icon: "M21 15a5 5 0 01-5 5H8l-4 4V5a3 3 0 013-3h12a3 3 0 013 3z",
-          cor: "green",
+          titulo: "Testes & qualidade de software",
+          descricao: "Testes automatizados e manuais, critérios de aceite, evidências e prevenção de regressões em squads ágeis.",
+          tecnologias: "Jest • Cypress • Testing Library • Azure Test Plans • Testes E2E • Regressão",
+          icon: "M12 1l9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4zm-2 16l7-7-1.41-1.41L10 14.17l-2.59-2.58L6 13l4 4z",
+          cor: "amber",
           delay: 320
         },
         {
           id: 5,
-          titulo: "UI/UX & Prototipagem",
-          descricao: "Interfaces responsivas alinhadas a protótipos no Figma, com foco em usabilidade e acessibilidade.",
-          tecnologias: "Figma • Responsivo • Acessibilidade • UI/UX",
-          icon: "M3 4a1 1 0 011-1h16a1 1 0 011 1v12a1 1 0 01-1 1h-5v2h2a1 1 0 110 2H7a1 1 0 110-2h2v-2H4a1 1 0 01-1-1V4zm2 1v10h14V5H5z",
-          cor: "rose",
+          titulo: "Infraestrutura & DevOps",
+          descricao: "Pipelines de CI/CD, análise de qualidade, versionamento e monitoramento de aplicações em ambientes corporativos.",
+          tecnologias: "Docker • Docker Compose • Git • GitHub Actions • Azure DevOps • SonarQube • Datadog",
+          icon: "M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4",
+          cor: "violet",
           delay: 400
         },
         {
           id: 6,
-          titulo: "QA, testes & DevOps",
-          descricao: "Testes automatizados, pipelines de CI/CD, análise de qualidade e monitoramento de aplicações.",
-          tecnologias: "Jest • Cypress • Docker • CI/CD • SonarQube • Datadog",
-          icon: "M12 1l9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4zm-2 16l7-7-1.41-1.41L10 14.17l-2.59-2.58L6 13l4 4z",
-          cor: "amber",
+          titulo: "Metodologias & processos ágeis",
+          descricao: "Atuação em squads multidisciplinares com foco em requisitos, documentação técnica, rastreabilidade e melhoria contínua.",
+          tecnologias: "Scrum • Kanban • TDD • BDD • Documentação técnica • Análise de requisitos",
+          icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
+          cor: "rose",
           delay: 480
         }
       ]
@@ -153,7 +153,7 @@ const PortfolioData = {
           titulo: "Plataforma corporativa web",
           descricao: "Aplicações internas com Angular e React, integração REST, tratamento de erros e testes com Jest em pipeline de CI/CD.",
           tecnologias: "Angular • React • TypeScript • Jest • CI/CD",
-          imagem: "https://images.unsplash.com/photo-1551281056-b31fe85ccbef?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
           delay: 120,
           destaque: true
@@ -334,7 +334,7 @@ const PortfolioData = {
         }
       ],
       footer: {
-        texto: "Andressa Oliveira — Desenvolvimento Full Stack & IA aplicada"
+        texto: "Andressa Oliveira - Desenvolvimento Full Stack & IA aplicada"
       }
     }
   },
@@ -359,7 +359,7 @@ const PortfolioData = {
         contato: "Contact"
       },
       meta: {
-        title: "Andressa Oliveira — Full Stack, Applied AI & QA",
+        title: "Andressa Oliveira - Full Stack, Applied AI & QA",
         description: "Full Stack developer with 10+ years of experience in Angular, React, Node.js, automated testing, and AI applied to software development."
       }
     },
@@ -379,56 +379,56 @@ const PortfolioData = {
       servicos: [
         {
           id: 1,
-          titulo: "Corporate front-end",
-          descricao: "Scalable SPAs with reusable components, routing, and REST API integration.",
-          tecnologias: "Angular • React • TypeScript • Interceptors",
+          titulo: "Web & mobile development",
+          descricao: "Corporate applications and hybrid apps with responsive interfaces, reusable components, and API integration.",
+          tecnologias: "Angular • React • Ionic • TypeScript • HTML5 • CSS3 • SASS • Bootstrap • Figma",
           icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
           cor: "sky",
           delay: 80
         },
         {
           id: 2,
-          titulo: "Back-end & APIs",
-          descricao: "Services, endpoints, and business rules connecting front-end, back-end, and databases.",
-          tecnologias: "Node.js • Express • REST • MySQL • PostgreSQL",
+          titulo: "Back-end & integrations",
+          descricao: "REST APIs, services, business rules, and data modeling across front-end, back-end, and databases.",
+          tecnologias: "Node.js • Express • REST APIs • JSON • Postman • MySQL • PostgreSQL",
           icon: "M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2",
           cor: "indigo",
           delay: 160
         },
         {
           id: 3,
-          titulo: "AI applied to development",
-          descricao: "Generative AI for documentation, prototyping, solution review, and workflow automation.",
-          tecnologias: "Generative AI • Documentation • Prototyping • Automation",
-          icon: "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z",
-          cor: "violet",
+          titulo: "Conversational automation & AI",
+          descricao: "Chatbots, support flows, and generative AI for productivity, documentation, and development support.",
+          tecnologias: "Blip • Chatbots • Support automation • Generative AI • Conversational flows",
+          icon: "M21 15a5 5 0 01-5 5H8l-4 4V5a3 3 0 013-3h12a3 3 0 013 3z",
+          cor: "green",
           delay: 240
         },
         {
           id: 4,
-          titulo: "Conversational automation",
-          descricao: "Chatbots, support flows, and API integration for conversational process automation.",
-          tecnologias: "Blip • Chatbots • Support flows • APIs",
-          icon: "M21 15a5 5 0 01-5 5H8l-4 4V5a3 3 0 013-3h12a3 3 0 013 3z",
-          cor: "green",
+          titulo: "Testing & software quality",
+          descricao: "Automated and manual testing, acceptance criteria, evidence, and regression prevention in agile squads.",
+          tecnologias: "Jest • Cypress • Testing Library • Azure Test Plans • E2E testing • Regression",
+          icon: "M12 1l9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4zm-2 16l7-7-1.41-1.41L10 14.17l-2.59-2.58L6 13l4 4z",
+          cor: "amber",
           delay: 320
         },
         {
           id: 5,
-          titulo: "UI/UX & Prototyping",
-          descricao: "Responsive interfaces aligned with Figma prototypes, focused on usability and accessibility.",
-          tecnologias: "Figma • Responsive • Accessibility • UI/UX",
-          icon: "M3 4a1 1 0 011-1h16a1 1 0 011 1v12a1 1 0 01-1 1h-5v2h2a1 1 0 110 2H7a1 1 0 110-2h2v-2H4a1 1 0 01-1-1V4zm2 1v10h14V5H5z",
-          cor: "rose",
+          titulo: "Infrastructure & DevOps",
+          descricao: "CI/CD pipelines, quality analysis, version control, and application monitoring in corporate environments.",
+          tecnologias: "Docker • Docker Compose • Git • GitHub Actions • Azure DevOps • SonarQube • Datadog",
+          icon: "M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4",
+          cor: "violet",
           delay: 400
         },
         {
           id: 6,
-          titulo: "QA, testing & DevOps",
-          descricao: "Automated testing, CI/CD pipelines, quality analysis, and application monitoring.",
-          tecnologias: "Jest • Cypress • Docker • CI/CD • SonarQube • Datadog",
-          icon: "M12 1l9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4zm-2 16l7-7-1.41-1.41L10 14.17l-2.59-2.58L6 13l4 4z",
-          cor: "amber",
+          titulo: "Agile methodologies & processes",
+          descricao: "Work in multidisciplinary squads focused on requirements, technical documentation, traceability, and continuous improvement.",
+          tecnologias: "Scrum • Kanban • TDD • BDD • Technical documentation • Requirements analysis",
+          icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
+          cor: "rose",
           delay: 480
         }
       ]
@@ -493,7 +493,7 @@ const PortfolioData = {
           titulo: "Corporate web platform",
           descricao: "Internal applications with Angular and React, REST integration, error handling, and Jest tests in CI/CD pipelines.",
           tecnologias: "Angular • React • TypeScript • Jest • CI/CD",
-          imagem: "https://images.unsplash.com/photo-1551281056-b31fe85ccbef?q=80&w=1200&auto=format&fit=crop",
+          imagem: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
           categoria: ["web"],
           delay: 120,
           destaque: true
@@ -674,7 +674,7 @@ const PortfolioData = {
         }
       ],
       footer: {
-        texto: "Andressa Oliveira — Full Stack Development & Applied AI"
+        texto: "Andressa Oliveira - Full Stack Development & Applied AI"
       }
     }
   }
