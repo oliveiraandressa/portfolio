@@ -1,160 +1,107 @@
-# 🌟 Portfolio Andressa Oliveira
+# Portfolio Andressa Oliveira
 
-> **Front-End Developer - UI/UX Designer - QA Specialist**
+> **Full Stack Developer — Applied AI — QA Specialist**
 
-Portfolio moderno e responsivo desenvolvido com HTML5, CSS3, JavaScript e TailwindCSS. Apresenta projetos, habilidades e experiência profissional de forma interativa e elegante.
+Portfolio moderno e responsivo desenvolvido com HTML5, CSS3, JavaScript e TailwindCSS. Apresenta experiência profissional, projetos, habilidades técnicas e diferencial em IA aplicada ao desenvolvimento.
 
-## ✨ Características
+## Características
 
-- 🎨 **Design Moderno** - Interface clean com glassmorphism e animações suaves
-- 🌍 **Multi-idioma** - Suporte completo para Português e Inglês
-- 📱 **100% Responsivo** - Otimizado para desktop, tablet e mobile
-- ⚡ **Performance** - Carregamento rápido e otimizado
-- 🎭 **Interativo** - Animações AOS e transições fluidas
-- 🔧 **Modular** - Código organizado e fácil manutenção
+- **Design moderno** — Interface dark com glassmorphism e animações suaves
+- **Multi-idioma** — Suporte completo para Português e Inglês
+- **100% responsivo** — Otimizado para desktop, tablet e mobile
+- **Performance** — Carregamento rápido, sem build step
+- **Interativo** — Animações AOS e transições fluidas
+- **Modular** — Conteúdo centralizado em `js/portfolio-data.js`
 
-## 🚀 Demo
+## Demo
 
 [**Ver Portfolio Online**](https://oliveiraandressa.github.io/portfolio/)
 
-## 📋 Seções
+## Seções
 
-### 🏠 **Home**
+### Home
 
-Apresentação pessoal com call-to-actions e informações de disponibilidade
+Apresentação profissional com 10+ anos de experiência, CTAs e informações de disponibilidade.
 
-### 💼 **Serviços**
+### Serviços
 
-- Prototipagem (Figma)
-- Web Design & UI
-- Sistemas (Angular)
-- Aplicativos (Ionic)
-- Arte para Redes Sociais
-- QA & Testes
-<!--
+- Front-end corporativo (Angular, React, TypeScript)
+- Back-end & APIs (Node.js, Express, MySQL, PostgreSQL)
+- IA aplicada ao desenvolvimento
+- Automação conversacional (Blip, chatbots)
+- UI/UX & Prototipagem (Figma)
+- QA, testes & DevOps (Jest, Cypress, Docker, CI/CD)
 
-### 🎯 **Projetos**
+### Experiência
 
-Portfolio de trabalhos realizados com filtros por categoria:
+Timeline com trajetória em Localiza, Vicsa Solutions e experiências anteriores (Ícaro Tech, TOTVS, Joit Solutions).
 
-- **Web** - Dashboards e landing pages
-- **Mobile** - Apps híbridos
-- **Design** - Prototipagem e arte digital
+### Projetos
 
-### 🛠️ **Habilidades**
+Cases anonimizados baseados em experiência real, com filtros por categoria: Web, Mobile, QA e IA.
 
-Visualização interativa das competências técnicas:
+### Habilidades
 
-- **Front-End** - HTML, CSS, JavaScript, Angular
-- **Design** - Figma, UI/UX
-- **QA** - Automação e testes manuais -->
+Competências técnicas em front-end, back-end, QA, DevOps e IA & automação.
 
-### 📞 **Contato**
+### Contato
 
-Links diretos para WhatsApp, LinkedIn e e-mail
+WhatsApp, LinkedIn, e-mail e link para download do currículo.
 
-## 🔧 Tecnologias
+## Tecnologias
 
-### **Core**
+### Core
 
 - HTML5 semântico
 - CSS3 com Custom Properties
 - JavaScript ES6+
-- TailwindCSS
+- TailwindCSS (CDN)
 
-### **Libraries & Frameworks**
+### Libraries
 
 - AOS (Animate On Scroll)
 - Inter Font (Google Fonts)
 
-### **Features**
+### Deploy
 
-- Glassmorphism effects
-- Smooth scrolling
-- Lazy loading
-- Progressive enhancement
-- Cross-browser compatibility
+- GitHub Actions → GitHub Pages
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 portfolio/
-├── 📁 css/
-│   └── styles.css              # Estilos organizados e comentados
-├── 📁 js/
-│   ├── portfolio-data.js       # Dados PT/EN centralizados
-│   ├── data-loader.js          # Sistema de carregamento dos dados dinâmicos
-│   └── script.js               # Funcionalidades gerais
-├── index.html                  # Página principal
-└── README.md                   # Documentação
+├── css/
+│   └── styles.css
+├── js/
+│   ├── portfolio-data.js    # Dados PT/EN centralizados
+│   ├── data-loader.js       # Renderização dinâmica e i18n
+│   └── script.js            # Navegação, preloader e animações
+├── curriculo.md             # Currículo em Markdown
+├── index.html
+└── README.md
 ```
 
-## 📊 Performance
+## Design System
 
-- ⚡ **Lighthouse Score**: 95+ em todas as métricas
-- 🎯 **First Contentful Paint**: < 1.5s
-- 📱 **Mobile Friendly**: 100% responsivo
-- 🔧 **Cross-browser**: Chrome, Firefox, Safari, Edge
-
-## 🎨 Design System
-
-### **Cores Principais**
+### Cores principais
 
 - **Primary**: `#fb7185` (Rosa vibrante)
 - **Background Dark**: `#0e0e0e`
-- **Background Gradient**: `#050507` → `#071018`
-- **Text Primary**: `#e6eef8` (Branco suave)
-- **Text Secondary**: `#f0f0f0`
-- **Card Background**: `#1a1a1a`
-- **Border**: `#262626`
-- **Glass Border**: `rgba(255,255,255,0.06)`
+- **Text Primary**: `#e6eef8`
 
-### **Tipografia**
+### Tipografia
 
 - **Font**: Inter (Google Fonts)
 - **Weights**: 300, 400, 600, 800
 
-### **Efeitos**
-
-- **Glassmorphism**: Transparências e blur
-- **Animações**: AOS + CSS transitions
-- **Hover States**: Transform e shadow
-
-## 🔍 SEO & Acessibilidade
-
-✅ Estrutura HTML semântica
-✅ Meta tags otimizadas
-✅ Alt text em imagens
-✅ Contraste adequado
-✅ Navegação por teclado
-✅ Aria labels
-
-## 📱 Responsividade
-
-### **Breakpoints**
-
-- **Mobile**: < 480px
-- **Tablet**: 481px - 768px
-- **Desktop**: > 768px
-
-### **Grid Adaptativo**
-
-- Cards se reorganizam automaticamente
-- Tipografia escala proporcionalmente
-- Navegação mobile otimizada
-
-## 📄 Licença
-
-Este projeto é open source e está disponível sob a licença MIT.
-
-## 👤 Contato
+## Contato
 
 **Andressa Oliveira**
 
-- 💼 [LinkedIn](https://linkedin.com/in/oliveiraandressa)
-- 📧 [Email](mailto:ms.andressa.oliveira@gmail.co)
-- 📱 [WhatsApp](wa.me/5511993004619)
+- [LinkedIn](https://linkedin.com/in/andressadeoliveira93)
+- [Email](mailto:ms.andressa.oliveira@gmail.com)
+- [WhatsApp](https://wa.me/5511993004619)
 
 ---
 
-⭐ **Se gostou do projeto, deixe uma estrela!** ⭐
+Este projeto é open source e está disponível sob a licença MIT.

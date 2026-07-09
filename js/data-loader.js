@@ -54,7 +54,7 @@ class EnhancedPortfolioLoader {
     if (!data) return false;
 
     // Verificar se as seções principais existem
-    const requiredSections = ['personal', 'services', 'projects', 'skills', 'testimonials', 'contact'];
+    const requiredSections = ['personal', 'services', 'experience', 'projects', 'skills', 'testimonials', 'contact'];
     return requiredSections.every(section => data[section] && typeof data[section] === 'object');
   }
 
@@ -158,10 +158,23 @@ class EnhancedPortfolioLoader {
   renderContent() {
     this.renderPersonalInfo();
     this.renderServices();
+    this.renderExperience();
     this.renderProjects();
     this.renderSkills();
     this.renderTestimonials();
     this.renderContact();
+    this.updatePageMeta();
+  }
+
+  updatePageMeta() {
+    const { personal } = this.data;
+    if (!personal?.meta) return;
+
+    document.title = personal.meta.title;
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', personal.meta.description);
+    }
   }
 
   renderPersonalInfo() {
@@ -181,10 +194,14 @@ class EnhancedPortfolioLoader {
 
           <div class="mt-6 flex flex-wrap gap-3">
             <a data-link href="#contact" class="inline-flex items-center gap-2 bg-rose-400 text-black font-semibold px-4 py-2 rounded-full shadow-md hover:shadow-lg">${personal.botoes.contato}</a>
-            <!-- <a data-link href="#contact" class="inline-flex items-center gap-2 border border-white/6 text-gray-200 px-4 py-2 rounded-full hover:bg-white/2">${personal.botoes.contato}</a> -->
+            <a data-link href="#projects" class="inline-flex items-center gap-2 border border-white/10 text-gray-200 px-4 py-2 rounded-full hover:bg-white/5">${personal.botoes.ver_projetos}</a>
           </div>
 
-          <div class="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs text-gray-400">
+          <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs text-gray-400">
+            <div class="flex flex-col">
+              <span class="text-gray-300 font-semibold">${this.currentLang === 'pt' ? 'Experiência' : 'Experience'}</span>
+              <span>${personal.experiencia}</span>
+            </div>
             <div class="flex flex-col">
               <span class="text-gray-300 font-semibold">${this.currentLang === 'pt' ? 'Disponível para' : 'Available for'}</span>
               <span>${personal.tipoTrabalho}</span>
@@ -238,8 +255,42 @@ class EnhancedPortfolioLoader {
 
     servicesContent.innerHTML = `
       <h2 class="text-2xl font-extrabold mb-6" data-aos="fade-up">${services.titulo}</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         ${servicesHTML}
+      </div>
+    `;
+  }
+
+  renderExperience() {
+    const { experience } = this.data;
+    const experienceContent = document.getElementById('experience-content');
+    if (!experienceContent || !experience) return;
+
+    const itemsHTML = experience.items.map(item => {
+      const entregasHTML = item.entregas.map(entrega => `<li>${entrega}</li>`).join('');
+      const techHTML = item.tecnologias.map(tech => `<span class="tech-badge">${tech}</span>`).join('');
+
+      return `
+        <article data-aos="fade-up" data-aos-delay="${item.delay}" class="timeline-item glass-heavy rounded-2xl p-6">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="flex flex-wrap items-start justify-between gap-2 mb-2">
+            <div>
+              <h3 class="font-semibold text-lg text-white">${item.empresa}</h3>
+              <p class="text-rose-300/90 text-sm font-medium">${item.cargo}</p>
+            </div>
+            <span class="text-xs text-gray-400 whitespace-nowrap">${item.periodo}</span>
+          </div>
+          <p class="text-gray-300 text-sm mb-3">${item.descricao}</p>
+          <ul class="timeline-list text-sm text-gray-400 mb-4">${entregasHTML}</ul>
+          <div class="flex flex-wrap gap-2">${techHTML}</div>
+        </article>
+      `;
+    }).join('');
+
+    experienceContent.innerHTML = `
+      <h2 class="text-2xl font-extrabold mb-8" data-aos="fade-up">${experience.titulo}</h2>
+      <div class="timeline">
+        ${itemsHTML}
       </div>
     `;
   }
@@ -325,7 +376,7 @@ class EnhancedPortfolioLoader {
 
     skillsContent.innerHTML = `
       <h2 class="text-2xl font-extrabold mb-6" data-aos="fade-up">${skills.titulo}</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         ${categoriesHTML}
       </div>
     `;

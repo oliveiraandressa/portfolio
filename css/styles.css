@@ -397,7 +397,62 @@ footer {
 }
 
 /* ================================
-   13. ANIMATIONS & EFFECTS
+   13. EXPERIENCE TIMELINE
+   ================================ */
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 1.25rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(251, 113, 133, 0.5), rgba(99, 102, 241, 0.2));
+}
+
+.timeline-item {
+  position: relative;
+  margin-left: 2.5rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -2.05rem;
+  top: 1.5rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: var(--primary-color);
+  box-shadow: 0 0 0 4px rgba(251, 113, 133, 0.15);
+}
+
+.timeline-list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.tech-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+/* ================================
+   14. ANIMATIONS & EFFECTS
    ================================ */
 
 .float-slow {
@@ -432,6 +487,18 @@ footer {
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.2rem;
+  }
+
+  .timeline::before {
+    left: 0.75rem;
+  }
+
+  .timeline-item {
+    margin-left: 2rem;
+  }
+
+  .timeline-marker {
+    left: -1.55rem;
   }
 
   .cards {
